@@ -542,7 +542,7 @@ open class CameraActivity : AppCompatActivity(R.layout.activity_camera) {
         // Hide the status bars
         window.updateBarsVisibility(
             WindowInsetsControllerCompat.BEHAVIOR_DEFAULT,
-            statusBars = false,
+            statusBars = true,
         )
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O_MR1
