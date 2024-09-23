@@ -28,6 +28,10 @@ android_app {
         "preinstalled-packages-org.lineageos.aperture",
     ],
 
+    overrides: [
+        "Camera2",
+    ],
+
     static_libs: [
         // DO NOT EDIT THIS SECTION MANUALLY
         "androidx.core_core-ktx",
